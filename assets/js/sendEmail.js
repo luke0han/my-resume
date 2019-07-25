@@ -14,4 +14,10 @@ function sendMail(contactForm) {
 }
 
 
- 
+        window.onload = function() {
+            document.getElementById('contactForm').addEventListener('submit', function(event) {
+                event.preventDefault();
+                this.contact_number.value = Math.random() * 100000 | 0;
+                emailjs.sendForm('gmail', 'resume', this);
+            });
+        }
