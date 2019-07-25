@@ -359,9 +359,10 @@ footer {
 
 button[type="submit"] {
     margin-top: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 80px;
     color: #fafafa;
     background-color: #5680e9;
+
 }
 
 #map {min-height: 360px;}
