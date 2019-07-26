@@ -54,6 +54,12 @@ h4 {
     text-transform: uppercase;
 }
 
+.construction {
+    font-size: 9px;
+    font-weight: lighter;
+    text-align: center;
+}
+
 .general-sub {
     font-family: "Exo", sans-serif;
     font-weight: 300;
