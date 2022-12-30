@@ -369,8 +369,19 @@ button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 80px;
     color: #fafafa;
-    background-color: #5680e9;
+    background-color: #5ab9ea;
 
+}
+.contact-btn {
+    background-color: #5ab9ea;
+}
+
+.contact-btn:active {
+    background-color: #44b5ed;
+    padding: 1.2em;
+}
+.contact-btn:hover {
+    background-color: #3eb4ef;
 }
 
 #map {min-height: 360px;}
