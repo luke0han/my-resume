@@ -374,11 +374,12 @@ button[type="submit"] {
 }
 .contact-btn {
     background-color: #5ab9ea;
+    margin: 10px 0 40px 0;
 }
 
 .contact-btn:active {
     background-color: #44b5ed;
-    padding: 1.2em;
+    padding: 1.1em 1em 1.1em 1em;
 }
 .contact-btn:hover {
     background-color: #3eb4ef;
