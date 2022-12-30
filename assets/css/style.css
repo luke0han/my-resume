@@ -9,7 +9,7 @@
     background-color: #fff;
 }
 .ui-menu-color-home {
-    background-color: #6610f2;
+    background-color: #7225f7;
 }
 
 .ui-menu-color-resume {
@@ -25,7 +25,7 @@
 }
 
 .bg-color-personal-info {
-    background-color: #6610f2;
+    background-color: #7225f7;
 }
 
 .bg-color-work-history {
@@ -85,6 +85,7 @@ h4 {
     font-weight: 300;
     margin-top:25px;
     margin-bottom: 40px;
+    color: #fff;
 }
 
 /*****************************************HEADING***************************************/
