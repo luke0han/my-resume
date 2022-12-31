@@ -1,7 +1,7 @@
     
 function userInformationHTML(user) {
     return `
-        <h2>${user.name}
+        <h2>
             <span class="small-name">
                 (@<a href="${user.html_url}" target="_blank">${user.login}</a>)
             </span>
@@ -9,10 +9,10 @@ function userInformationHTML(user) {
         <div class="gh-content">
             <div class="gh-avatar">
                 <a href="${user.html_url}" target="_blank">
-                    <img src="${user.avatar_url}" width="80" height="80" alt="${user.login}" />
+                   
                 </a>
             </div>
-            <p>Followers: ${user.followers} - Following ${user.following} <br> Repos: ${user.public_repos}</p>
+             Repos: ${user.public_repos}</p>
         </div>`;
 }
 
